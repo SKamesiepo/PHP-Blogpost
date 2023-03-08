@@ -13,5 +13,7 @@
         <input type="submit" value="Submit">
     </form>
 
+
+    <button><a href="blogposts.php">View All Posts</a></button>
 </body>
 </html>

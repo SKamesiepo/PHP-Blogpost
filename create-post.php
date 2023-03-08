@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shaun's Simple Blog</title>
+</head>
+<body>
+<button><a href="index.php">Return To Create Posts</a></button>
+<button><a href="blogposts.php">View All Posts</a></button>
+</body>
+</html>
+
 <?php
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -22,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     echo 'Thank you for submitting a post!';
     };
-    
+
   } else {
     echo 'Due to an error, your post was not submitted :(, please refresh and try
     again';
